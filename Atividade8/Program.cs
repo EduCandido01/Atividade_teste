@@ -8,11 +8,11 @@
         Console.WriteLine("digite outro número");
         int num2 = Convert.ToInt32(Console.ReadLine());
 
-        bool resultado = num1 == num2;
+        bool resultado = num1 != num2;
 
         if (resultado)
         {
-            Console.WriteLine("os números são iguais");
+            Console.WriteLine("os números são diferentes");
         }
 
     }
